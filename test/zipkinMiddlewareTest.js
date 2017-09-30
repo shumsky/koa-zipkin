@@ -1,8 +1,8 @@
 const zipkinMiddleware = require('../src/zipkinMiddleware');
 const Koa = require('koa');
-
 const {Tracer, ExplicitContext} = require('zipkin');
 
+const {expect} = require('chai');
 const fetch = require('node-fetch');
 
 describe('zipkinMiddlewareTest', () => {

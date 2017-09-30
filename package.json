@@ -1,0 +1,17 @@
+{
+  "name": "koa-zipkin",
+  "version": "0.1.0",
+  "description": "Koa middleware for instrumentation with Zipkin.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "https://github.com/shumsky/koa-zipkin",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "koa": "^2.3.0",
+    "mocha": "^3.2.0",
+    "node-fetch": "^1.7.3",
+    "zipkin": "^0.7.3"
+  }
+}
