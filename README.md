@@ -1,15 +1,12 @@
-# zipkin-instrumentation-koa
+# koa-zipkin
 
 Zipkin middleware for Koa 2.x that traces incoming HTTP requests.
-
-## Installation
-`npm install zipkin-instrumentation-koa`
 
 ## Usage
 ```js
 const Koa = require('koa');
 const {Tracer, ConsoleRecorder, ExplicitContext} = require('zipkin');
-const {zipkinMiddleware} = require('zipkin-instrumentation-koa');
+const {zipkinMiddleware} = require('koa-zipkin');
 
 const recorder = new ConsoleRecorder();
 const ctxImpl = new ExplicitContext();
